@@ -7,3 +7,4 @@ dbt/dbt_packages/
 *.log
 .DS_Store
 .ivy2/
+dbt/.user.yml
