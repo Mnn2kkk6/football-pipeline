@@ -217,3 +217,9 @@ docker compose exec airflow bash -c 'tail -n 40 $(ls -t /opt/airflow/logs/dag_id
 ## Nguồn dữ liệu
 
 Dữ liệu từ [StatsBomb Open Data](https://github.com/statsbomb/open-data). Khi công bố kết quả dùng dữ liệu này, hãy ghi nguồn StatsBomb theo điều khoản sử dụng của họ.
+<img width="1899" height="759" alt="image" src="https://github.com/user-attachments/assets/5d84b9e8-56cc-407a-80bd-fa20055117a9" />
+<img width="1500" height="374" alt="image" src="https://github.com/user-attachments/assets/8b5bec28-5db2-4da3-bc8f-61679fbe1cd5" />
+<img width="1487" height="375" alt="image" src="https://github.com/user-attachments/assets/d0d5e3b3-8d58-47db-beca-6313719c982a" />
+
+
+
