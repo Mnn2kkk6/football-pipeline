@@ -1,0 +1,12 @@
+name: football
+version: "1.0.0"
+config-version: 2
+profile: football
+model-paths: ["models"]
+models:
+  football:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+test-paths: ["tests"]

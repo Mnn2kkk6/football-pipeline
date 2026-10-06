@@ -1,0 +1,21 @@
+version: 2
+models:
+  - name: fact_passes
+    columns:
+      - name: pass_id
+        tests: [unique, not_null]
+      - name: player_id
+        tests: [not_null]
+      - name: start_x
+        tests:
+          - pitch_x_in_range
+  - name: fact_shots
+    columns:
+      - name: shot_id
+        tests: [unique, not_null]
+      - name: shot_xg
+        tests: [not_null]
+  - name: dim_players
+    columns:
+      - name: player_id
+        tests: [unique, not_null]

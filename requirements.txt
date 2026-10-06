@@ -1,0 +1,4 @@
+requests
+boto3
+psycopg2-binary
+pyspark==3.5.1
